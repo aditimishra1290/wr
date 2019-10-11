@@ -159,7 +159,7 @@ color:#404040;
   
   </div>
 
-<div class="pic" style="padding-left:30%; ">
+<div class="pic" style="padding-left:20%; ">
   <p style="padding-top:30%; margin-top:0px;font-size:5vw;color:#404040;">Keep Your Business<br><b style="font-size:7vw;">Clean & Simple</b></p>
   <p style="color:#404040;font-size:2vw;padding-top:0px;">Aenan lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce.<br><br>
  <a href="#2" class="button button1">LEARN MORE</a>
