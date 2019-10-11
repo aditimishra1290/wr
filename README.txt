@@ -45,6 +45,8 @@ margin-bottom:15px;
   color: white;
 }
 .pic{
+margin:3vw;
+margin-top:0;
 background-image:url('http://optontest2.com/wp/wp-content/uploads/2016/08/minimal-white-chair-700x500.jpg');
 background-repeat:no-repeat;
 background-size:cover;
@@ -145,6 +147,7 @@ color:#404040;
   }
 }
 .pic2{
+margin:3vw;
 background-image:url('http://max-themes.net/demos/kleanity/upload/minimal-chair-black.jpg');
 background-repeat:no-repeat;
 background-size:cover;
