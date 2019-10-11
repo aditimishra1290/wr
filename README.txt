@@ -2,6 +2,8 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body {
   margin: 0;
@@ -142,12 +144,22 @@ color:#404040;
     width:100%;
   }
 }
+.pic2{
+background-image:url('http://max-themes.net/demos/kleanity/upload/minimal-chair-black.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+margin-top:28vw;
+
+
+max-width:100%;height:auto;
+
+}
 </style>
 </head>
 <body>
 
 <div class="topnav">
-
+  <a href="#search"><i class="fas fa-search"></i></a>
   <a href="#shop">SHOP</a>
   <a href="#features">FEATURES</a>
   <a href="#gallery">GALLERY</a>
@@ -168,19 +180,19 @@ color:#404040;
 </div>
 <br><br><br>
 <div style="background-color:white;">
-<div class="one" style="padding-left:5vw;"><i>fas fa-pie-chart</i>
+<div class="one" style="padding-left:5vw;"> <i class="fa fa-pie-chart" style="font-size:4vw;"></i><br>
 <br><b><div style="font-size:2vw;">Business Plan Services</div></b><br>
 <p style="font-size:1.5vw;">Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
 <hr>
 <p style="font-size:1.5vw;">01</p>
 </div>
-<div class="two" style="padding-left:5vw;"><i>fas fa-customer</i>
+<div class="two" style="padding-left:5vw;"> <i class="fa fa-user" style="font-size:4vw;"></i><br>
 <br><b><div style="font-size:2vw;">Brand Identity</div></b><br>
 <p style="font-size:1.5vw;">Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
 <hr>
 <p style="font-size:1.5vw;">02</p>
 </div>
-<div class="three" style="padding-left:5vw;"><i>fas fa-service</i>
+<div class="three" style="padding-left:5vw;"> <i class="fa fa-globe" style="font-size:4vw;"></i><br>
 <br><b><div style="font-size:2vw;">Social Media Planning</div></b><br>
 <p style="font-size:1.5vw;">Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
 <hr>
@@ -188,6 +200,15 @@ color:#404040;
 </div>
 </div>
 <br>
+<div class="pic2" style="padding-left:5%; padding-top:10%; ">
+ <i class="fas fa-edit" style="font-size:4vw;"></i><br> <p style=" margin-top:50px;font-size:6vw;color:#404040;"><b>Story About Us</b><br>
+  <i style="font-size:2.5vw;">What we have done from the past</i><br>
+  <p style="color:#404040;font-size:2vw;padding-top:0px;">Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque.<br><br>
+  <a href="#2" class="button button1">LEARN MORE</a>
+
+<br><br>
+
+</div>
 
 </body>
 </html>
