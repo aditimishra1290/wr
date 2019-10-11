@@ -5,6 +5,9 @@
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+*{
+font-family:Palatino Linotype;
+}
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -45,7 +48,6 @@ margin-bottom:15px;
   color: white;
 }
 .pic{
-
 margin-top:0;
 background-image:url('http://optontest2.com/wp/wp-content/uploads/2016/08/minimal-white-chair-700x500.jpg');
 background-repeat:no-repeat;
@@ -142,7 +144,7 @@ color:#404040;
 }
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
-  .one, .two, .three {
+  .one, .two, .three, .works,.details {
     width:100%;
   }
 }
@@ -157,6 +159,26 @@ margin-top:28vw;
 max-width:100%;height:auto;
 
 }
+.total{
+color:#404040;
+}
+.works{
+
+font-size:3vw;
+width:30%;
+float:left;
+text-align:center;
+
+}
+.details{
+padding:2vw;
+margin-left:0;
+font-size:1.5vw;
+width:60%;
+float:right;
+opacity:0.8;
+}
+
 </style>
 </head>
 <body>
@@ -176,7 +198,7 @@ max-width:100%;height:auto;
 
 <div class="pic" style="padding-left:20%; ">
   <p style="padding-top:30%; margin-top:0px;font-size:5vw;color:#404040;">Keep Your Business<br><b style="font-size:7vw;">Clean & Simple</b></p>
-  <p style="color:#404040;font-size:2vw;padding-top:0px;">Aenan lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce.<br><br>
+  <p style="color:#404040;font-size:2vw;padding-top:0px;opacity:0.8;">Aenan lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce.<br><br>
  <a href="#2" class="button button1">LEARN MORE</a>
 <a href="#1" class="button button2"><span>BUY NOW</span></a>
 <br><br><br><br>....</p>
@@ -185,19 +207,19 @@ max-width:100%;height:auto;
 <div style="background-color:white;">
 <div class="one" style="padding-left:5vw;"> <i class="fa fa-pie-chart" style="font-size:4vw;"></i><br>
 <br><b><div style="font-size:2vw;">Business Plan Services</div></b><br>
-<p style="font-size:1.5vw;">Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+<p style="font-size:1.5vw;opacity:0.8;">Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
 <hr>
 <p style="font-size:1.5vw;">01</p>
 </div>
 <div class="two" style="padding-left:5vw;"> <i class="fa fa-user" style="font-size:4vw;"></i><br>
 <br><b><div style="font-size:2vw;">Brand Identity</div></b><br>
-<p style="font-size:1.5vw;">Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+<p style="font-size:1.5vw;opacity:0.8;">Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
 <hr>
 <p style="font-size:1.5vw;">02</p>
 </div>
 <div class="three" style="padding-left:5vw;"> <i class="fa fa-globe" style="font-size:4vw;"></i><br>
 <br><b><div style="font-size:2vw;">Social Media Planning</div></b><br>
-<p style="font-size:1.5vw;">Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+<p style="font-size:1.5vw;opacity:0.8;">Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
 <hr>
 <p style="font-size:1.5vw;">03</p>
 </div>
@@ -206,12 +228,23 @@ max-width:100%;height:auto;
 <div class="pic2" style="padding-left:5%; padding-top:10%; ">
  <i class="fas fa-edit" style="font-size:4vw;"></i><br> <p style=" margin-top:50px;font-size:6vw;color:#404040;"><b>Story About Us</b><br>
   <i style="font-size:2.5vw;">What we have done from the past</i><br>
-  <p style="color:#404040;font-size:2vw;padding-top:0px;">Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque.<br><br>
+  <p style="color:#404040;font-size:2vw;padding-top:0px;opacity:0.8;">Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque.<br><br>
   <a href="#2" class="button button1">LEARN MORE</a>
 
 <br><br>
 
 </div>
+<div class="total">
+<div class="works">
+    <h2>Our Works.</h2>
+    
+  </div>
+
+  <div class="details">
+  
+    <p>Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula. Lorem ipsum dolor sit amet.</p>
+  </div>
+  </div>
 
 </body>
 </html>
