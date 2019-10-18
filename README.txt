@@ -163,8 +163,8 @@ max-width:100%;height:auto;
 color:#404040;
 }
 .works{
-
-font-size:3vw;
+margin:2vw;
+font-size:2vw;
 width:30%;
 float:left;
 text-align:center;
@@ -173,11 +173,120 @@ text-align:center;
 .details{
 padding:2vw;
 margin-left:0;
-font-size:1.5vw;
+font-size:1.7vw;
 width:60%;
 float:right;
 opacity:0.8;
 }
+.navb  {
+
+  background-color:none;
+  border: none;
+  color: #404040;
+  width:60%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5vw;
+  padding-left:20%;
+  cursor: pointer;
+}
+.navb a{
+color: #404040;
+padding:2 vw;
+margin:0.5vw;
+text-decoration:none;
+font-size:2vw;
+font-weight:400;
+opacity:0.6;
+}
+.navb a:hover{
+opacity:1;
+}
+.pictures{
+margin:6vw;
+padding:2vw;
+display:inline-block;
+}
+.picture1 {
+
+width:18.5vw;
+height:22vw;
+float:left;
+opacity:0.8;
+margin-right:2vw;
+margin-top:2vw;
+}
+.picture1:hover{
+width:19.5vw;
+height:23vw;
+opacity:1;
+}
+.picture2{
+width:18.5vw;
+height:22vw;
+float:left;
+opacity:0.8;
+margin-right:2vw;
+margin-top:2vw;
+
+}
+.picture2:hover{
+width:19.5vw;
+height:23vw;
+opacity:1;
+}
+.picture3{
+width:18.5vw;
+height:22vw;
+float:left;
+opacity:0.8;
+margin-right:2vw;
+margin-top:2vw;
+
+}
+.picture3:hover{
+width:19.5vw;
+height:23vw;
+opacity:1;
+}
+.picture4{
+width:18.5vw;
+height:22vw;
+float:left;
+opacity:0.8;
+margin-top:2vw;
+
+
+
+}
+.picture4:hover{
+width:19.5vw;
+height:23vw;
+opacity:1;
+}
+.service{
+background-color: #ebebe0;
+height:65vw;
+}
+.pic3{
+width:50vw;
+float:left;
+height:65vw;
+opacity:1;
+margin-right:5vw;
+}
+.services{
+
+color:#404040;
+padding-top:2vw;
+height:65vw;
+
+
+
+}
+
+
 
 </style>
 </head>
@@ -245,6 +354,59 @@ opacity:0.8;
     <p>Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula. Lorem ipsum dolor sit amet.</p>
   </div>
   </div>
+<div class="navb">
+  <a href="#all"><i>All /</i></a>
+  <a href="#branding"><i>Branding /</i></a>
+  <a href="#minimal"><i>Minimal /</i></a>
+  <a href="#photography"><i>Photography /</i></a>
+  <a href="#product"><i>Product</i></a>
+  </div>
+<br><br>
+<div class="pictures">
+<div class="picture1"><a href="#picture1"><img src="http://max-themes.net/demos/kleanity/upload/colored-sofa.jpg" alt="sofa" style="width:100% ;height:100%;" ></a></div>
+<div class="picture2"><a href="#picture2"><img src="http://max-themes.net/demos/kleanity/upload/wooden-clock-400x377.jpg" alt="wooden clock" style="width:100%; height:100%;"></a></div>
+<div class="picture3"><a href="#picture3"><img src="http://max-themes.net/demos/kleanity/upload/typo-frame-400x257.jpg" alt="topography frame" style="width:100%;height:100%;"></a></div>
+<div class="picture4"><a href="#picture4"><img src="http://max-themes.net/demos/kleanity/upload/typewriter-keys-mechanically-letters-400x377.jpg" alt="typewriter" style="width:100%;height:100%;"></a></div>
 
+<div class="picture1"><a href="#picture5"><img src="http://max-themes.net/demos/kleanity/upload/minimal-chair-black-400x257.jpg" alt="chair" style="width:100% ;height:100%;" ></a></div>
+<div class="picture2"><a href="#picture6"><img src="https://www.ntabacoffeehaus.com/wp-content/uploads/2016/08/green-scene-700x450.jpg" alt="lamp" style="width:100% ;height:100%;" ></a></div>
+<div class="picture3"><a href="#picture7"><img src="http://lifejacketunderyourseat.com/wp-content/uploads/2016/08/brown-notebook-700x660.jpg" alt="portfolio" style="width:100% ;height:100%;" ></a></div>
+<div class="picture4"><a href="#picture8"><img src="http://max-themes.net/demos/kleanity/upload/minimal-bag-400x257.jpg" alt="bag" style="width:100% ;height:100%;" ></a>
+</div>
+<div class="picture1"><a href="#picture9"><img src="http://max-themes.net/demos/kleanity/upload/pexels-photo-30222.jpg" alt="headphones" style="width:100% ;height:100%;" ></a></div>
+<div class="picture2"><a href="#picture10"><img src="https://www.emanueledibiase.com/wp-content/uploads/2016/08/sofa-pink-scene.jpg" alt="sofa" style="width:100% ;height:100%;" ></a></div>
+<div class="picture3"><a href="#picture11"><img src="https://www.ntabacoffeehaus.com/wp-content/uploads/2016/08/minimal-clock-700x450.jpg" alt="clock" style="width:100% ;height:100%;" ></a></div>
+<div class="picture4"><a href="#picture12"><img src="http://max-themes.net/demos/kleanity/upload/modern-clock-scene.jpg" alt="digital clock" style="width:100% ;height:100%;" ></a></div>
+</div>
+  <br><br>
+  <div class="service" style="padding-right:10vw">
+<div class="pic3">
+    <img src="https://github.com/aditimishra1290/wr/blob/master/images/hp1-service-half.jpg?raw=true" alt="service" style="width:100%;height:100%;">    
+  </div>
+
+  <div class="services">
+  
+   <dl>
+  <dt style="padding-left:2vw;"><i class="far fa-lightbulb" style="font-size:3vw; padding-left:1vw;"></i><b style="padding-left:2vw;padding-top:1vw;font-size:2.5vw;"> Planning</b></dt>
+  <dd ><br> <p >Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce.</p><br></dd>
+  <dt style="padding-left:2vw;"><i class="far fa-sticky-note" style="font-size:3vw; padding-left:1vw;"></i><b style="padding-left:2vw;padding-top:1vw;font-size:2.5vw;"> Take Action</b></dt>
+  <dd><br><p> Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce.<p><br><br></dd>
+  <dt style="padding-left:2vw;"><i class="fas fa-stopwatch" style="font-size:3vw; padding-left:1vw;"></i><b style="padding-left:2vw;padding-top:1vw;font-size:2.5vw;">Deliver On Time</b></dt>
+  <dd><br> <p>Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce.</p></dd>
+</dl><br>
+  </div>
+  </div><br><br>
+
+  <div class="total">
+<div class="works">
+    <h2>Meet People Behind Our Success .</h2>
+    
+  </div>
+
+  <div class="details">
+  
+    <p>Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula. Lorem ipsum dolor sit amet. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui. Morbi leo risus, porta ac consectetur. Maecenas faucibus.</p>
+  </div>
+  </div><br><br>
 </body>
 </html>
