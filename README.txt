@@ -399,7 +399,7 @@ height:65vw;
 
   <div class="total">
 <div class="works">
-    <h2>Meet People Behind Our Success .</h2>
+    <h2> Meet People Behind Our Success .</h2>
     
   </div>
 
